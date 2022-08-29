@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_tutorial",
+  "version": "${version}",
+
+  "name": "Mod Tutorial",
+  "description": "Wow, merge!",
+  "authors": [
+    "Serbob"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.serbob.mod_tutorial.ModTutorial"
+    ],
+    "client": [
+      "net.serbob.mod_tutorial.ModTutorialClient"
+    ]
+  },
+  "mixins": [
+    "mod_tutorial.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
