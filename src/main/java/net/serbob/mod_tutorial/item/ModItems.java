@@ -15,6 +15,6 @@ public class ModItems {
     }
 
     public static void ModItemRegister() {
-        ModTutorial.LOGGER.debug("Registering mod items");
+        ModTutorial.LOGGER.debug("Registering mod items - "+ModTutorial.MOD_ID);
     }
 }

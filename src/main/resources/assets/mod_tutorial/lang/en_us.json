@@ -1,5 +1,7 @@
 {
   "item.mod_tutorial.ruby": "Ruby",
 
+  "block.mod_tutorial.ruby_ore": "Ruby Ore",
+
   "itemGroup.mod_tutorial.mod_tutorial_tab": "Mod Tutorial Tab"
 }
